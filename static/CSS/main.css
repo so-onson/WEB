@@ -1,0 +1,175 @@
+main > .container {
+    padding: 60px 15px 0;
+}
+
+nav {
+    height: 80px;
+}
+.question {
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-width: 500px;
+}
+
+.question-card {
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-width: 500px;
+}
+
+.tags {
+    width: 200px;
+}
+.question-avatar {
+    position: relative;
+    height:auto;
+    width: 70%;
+}
+
+.question-avatar > img {
+    height: 100px;
+    width: 110px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.settings-avatar {
+    position: relative;
+    height:auto;
+    width: 30%;
+    margin-left: 100px;
+}
+
+.settings-avatar > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.answer-avatar {
+    height: 70px;
+    width: 70px;
+}
+
+.answer-avatar > img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-avatar{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.user-avatar > img{
+    height: 10%;
+    width: 10%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.question-text {
+    margin-bottom: 5%;
+}
+
+.question-text-card {
+    margin-bottom: 20%;
+}
+
+.navbar .avatar {
+    /* width: 50px; */
+    /* height: 50px; */
+    overflow: hidden;
+    /* object-fit: cover; */
+    /* border-radius: 50%; */
+}
+
+.avatar img {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.user-name {
+    color: white;
+}
+
+.settings {
+    position: absolute;
+    right: 17%;
+    top: 40px;
+}
+
+.log-out {
+    position: absolute;
+    right: 13%;
+    top: 40px;
+}
+
+.new-question {
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.new-question-title {
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.quest-text {
+    height: 300px;
+}
+
+.answer-text {
+    height: 75px;
+    margin-bottom: 1%;
+}
+
+.answer {
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-width: 600px;
+}
+
+.main-content {
+    min-width: 900px;
+}
+
+.error {
+    color: red;
+}
+
+#answer-place{
+    max-height: 80px;
+    height: 80px;
+}
+
+#question-place{
+    max-height: 300px;
+}
+
+.sp {
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+}
+.border {
+    border-color: #c0c0c0;
+}
