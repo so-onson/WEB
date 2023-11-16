@@ -2,6 +2,8 @@
 {% load static %}
 {% block content %}
 <h2 class="mt-5">Log In</h2>
+
+<p id="error-msg" class="text-danger">Incorrect password or login</p>
 <form action="{% url 'index' %}">
     <div class="form-group row mb-3">
       <label for="login" class="col-lg-2 col-md-3 col-form-label">Login</label>

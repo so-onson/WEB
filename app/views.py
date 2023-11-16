@@ -3,19 +3,6 @@ from django.http import HttpResponse
 from app.models import *
 # Create your views here.
 
-# def index(request):
-#     questions = [
-#         {
-#         'i': i,
-#         'title': f'Question {i}',
-#         'content': f'lorem ipsum {i}'
-#         } for i in range(10)
-#     ]
-#     return render(request, 'index.html', context = {'questions': questions})
-
-def me(request):
-    return HttpResponse('me')
-
 from django.core.paginator import Paginator
 from django.views.decorators.http import require_GET
 from django.http import Http404
@@ -38,7 +25,7 @@ def paginate(objects, request, per_page=10):
     return p.page(page_num), str(page_num), list(map(str, p.get_elided_page_range(page_num, on_each_side=2)))
 
 
-# @require_GET
+@require_GET
 def index(request):
     questions, cur_page, pages = paginate(Question.objects.all().order_by('-id'), request)
     context = {

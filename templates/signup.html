@@ -3,6 +3,8 @@
 {% block content %}
 <div class="mt-5">
     <h2>Register</h2>
+
+    <p id="error-msg" class="text-danger">Passwords do not match</p>
   <form action="{% url 'login' %}">
     <div class="form-group row mb-3">
       <label for="login" class="col-lg-3 col-md-5 col-form-label">Login</label>
